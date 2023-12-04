@@ -1,3 +1,13 @@
+
+  @media screen and (width < 635px) {
+    .playbar {
+      font-size: 0.8em;
+      margin: 1px;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+
 .playbar {
     position: fixed;
     background-color: #9340fe;
