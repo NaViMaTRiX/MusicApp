@@ -69,6 +69,14 @@ const Playbar = () => {
         <TimeControls />
         <p>{formattedDuration}</p>
       </div>
+      {/* <div className="sound">
+        <Slider
+          className="sound"
+          step={1}
+          min={0}
+          max={100}
+        />
+      </div> */}
     </div>
   );
 };

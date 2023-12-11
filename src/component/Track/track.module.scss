@@ -33,3 +33,15 @@
 .playing * {
   color: #9340fe !important;
 }
+
+@media screen and (width < 401px) {
+  .track {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (width < 350px) {
+  .track {
+    gap: 10px !important;
+  }
+}
